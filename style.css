@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+	height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+	color:black;
+	font-size: 70px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: italic;
+}
+
+main{
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+	
+	
+}
+
+.works, .about, .summary{
+	border: 1px solid white;
+	width: 100vw;
+	text-align: center;
+	
+}
+
+h2{
+	font-size: 50px;
+	color:#000;
+	margin-top: 50px;
+}
